@@ -4,11 +4,11 @@ Distributed automation systems / Faculty of Electrical Engineering (University i
 
 ## Introduction
 
-In this project we will try to implement a smart home system. The aim of this project is to create a system that will connect sensors (input) and actuators (output). The system will be connected to the server and we will manage the actuators from a remote location. We will collect data from the sensors and send it to the server. Further, the data will be stored in a database and based on the collected data we will create appropriate diagrams, and based on the diagrams we can draw some conclusions about changes in the system. We will manage the actuators based on the data we will get from the server, that is, specifically from our SCADA system, ie. from a remote location we will manage events inside our house (e.g. we can turn on air conditioning, lights, open a garage, etc.).
+In this project we will try to implement a smart home system. The aim of this project is to create a system that will connect sensors (input) and actuators (output). The system will be connected to the server and we will manage the actuators from a remote location. We will collect data from the sensors and send it to the server. Further, the data will be stored in a database and based on the collected data we will create appropriate diagrams, and based on the diagrams we can draw some conclusions about changes in the system. We will manage the actuators based on the data we will get from the server, ie. specifically from our SCADA system, ie. from a remote location we will manage events inside our house (e.g. we can turn on air conditioning, lights, open a garage, etc.).
 
 Equipment:
 
-1. NodeMCU- ESP8266
+1. NodeMCU- ESP8266 (3x)
 2. Wires
 3. Light sensor - photoresistor
 4. Thermisor
@@ -41,7 +41,7 @@ We will use a thermistor to detect the temperature. We will send the temperature
 
 We will use this sensor to detect the object. We will detect if the car is in the garage. If the car is in the garage, we will send a value of 1 to the server, if there is no car, we will send a value of 0 to the server.
 
-### 5. Liquid detection sensor
+### 5. Water level sensor
 
 We will use this sensor to detect whether it is raining or not. If it rains, we will have the opportunity to cover the pool to prevent water pollution in the pool next to the house.
 
